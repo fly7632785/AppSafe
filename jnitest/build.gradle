@@ -26,7 +26,6 @@ android {
     sourceSets{
         main{
             jniLibs.srcDir(['libs'])
-            jni.srcDirs = [] //disable automatic ndk-build call
         }
     }
 }
@@ -44,6 +43,6 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.1'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.1'
-//    implementation project(':jnilibrary')
-    compile(name:'jnilibrary-debug', ext:'aar')
+    implementation project(':jnilibrary')
+//    compile(name:'jnilibrary-debug', ext:'aar')
 }
