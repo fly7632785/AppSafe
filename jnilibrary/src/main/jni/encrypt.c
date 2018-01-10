@@ -38,12 +38,25 @@ JNIEXPORT void JNICALL
 Java_com_jafir_jnilibrary_Hello_callArray(JNIEnv *env, jobject instance) {
     jfieldID arraysF = (*env)->GetFieldID(env, (*env)->GetObjectClass(env, instance), "arrays",
                                           "[I");
-    jfieldID personsF = (*env)->GetFieldID(env, (*env)->GetObjectClass(env, instance), "persons",
-                                           "[com/jafir/jnilibrary/Person");
     jintArray arrays = (*env)->GetObjectField(env, instance, arraysF);
     //获取数组对象指针
     jint *int_arr = (*env)->GetIntArrayElements(env, arrays, NULL);
     for (int i = 0; i < (*env)->GetArrayLength(env, arrays); ++i) {
         LOGD("%d", int_arr[i]);
+    }
+    //object对象的签名 要加；
+    jfieldID personsF = (*env)->GetFieldID(env, (*env)->GetObjectClass(env, instance), "persons",
+                                           "[Lcom/jafir/jnilibrary/Person;");
+    jobjectArray persons = (*env)->GetObjectField(env, instance, personsF);
+    //获取数组对象指针
+    jsize len = (*env)->GetArrayLength(env, persons);
+    for (int i = 0; i < len; ++i) {
+        jobject obj = (*env)->GetObjectArrayElement(env, persons, i);
+        jclass personClazz = (*env)->GetObjectClass(env, obj);
+        jmethodID toStringMethod = (*env)->GetMethodID(env, personClazz, "toString",
+                                                       "()Ljava/lang/String;");
+        jstring jstring1 = (*env)->CallObjectMethod(env, obj, toStringMethod);
+        // string要转为 UTF
+        LOGD("%s", (*env)->GetStringUTFChars(env, jstring1, NULL));
     }
 }
