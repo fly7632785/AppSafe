@@ -1,1 +1,1 @@
-include ':app',  ':jnitest', ':jnilibrary'
+include ':app',  ':jnitest', ':jnilibrary', ':signprotect'

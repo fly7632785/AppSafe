@@ -11,6 +11,7 @@
             <option value="$PROJECT_DIR$/app" />
             <option value="$PROJECT_DIR$/jnilibrary" />
             <option value="$PROJECT_DIR$/jnitest" />
+            <option value="$PROJECT_DIR$/signprotect" />
           </set>
         </option>
         <option name="resolveModulePerSourceSet" value="false" />

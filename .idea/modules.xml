@@ -6,6 +6,7 @@
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
       <module fileurl="file://$PROJECT_DIR$/jnilibrary/jnilibrary.iml" filepath="$PROJECT_DIR$/jnilibrary/jnilibrary.iml" />
       <module fileurl="file://$PROJECT_DIR$/jnitest/jnitest.iml" filepath="$PROJECT_DIR$/jnitest/jnitest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/signprotect/signprotect.iml" filepath="$PROJECT_DIR$/signprotect/signprotect.iml" />
     </modules>
   </component>
 </project>
