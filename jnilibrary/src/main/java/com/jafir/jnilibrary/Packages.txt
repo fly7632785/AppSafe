@@ -1,0 +1,50 @@
+Activity Resolver Table:
+  Non-Data Actions:
+      android.intent.action.MAIN:
+        8db536b com.jafir.jnitest/.MainActivity filter 3cb2029
+          Action: "android.intent.action.MAIN"
+          Category: "android.intent.category.LAUNCHER"
+          AutoVerify=false
+
+Key Set Manager:
+  [com.jafir.jnitest]
+      Signing KeySets: 18
+
+Packages:
+  Package [com.jafir.jnitest] (dea0fef):
+    userId=10100
+    pkg=Package{88f4ec8 com.jafir.jnitest}
+    codePath=/data/app/com.jafir.jnitest-1
+    resourcePath=/data/app/com.jafir.jnitest-1
+    legacyNativeLibraryDir=/data/app/com.jafir.jnitest-1/lib
+    primaryCpuAbi=x86
+    secondaryCpuAbi=null
+    versionCode=1 minSdk=15 targetSdk=26
+    versionName=1.0
+    splits=[base]
+    apkSigningVersion=2
+    applicationInfo=ApplicationInfo{5b5ab61 com.jafir.jnitest}
+    flags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ALLOW_BACKUP ]
+    privateFlags=[ RESIZEABLE_ACTIVITIES ]
+    dataDir=/data/user/0/com.jafir.jnitest
+    supportsScreens=[small, medium, large, xlarge, resizeable, anyDensity]
+    timeStamp=2018-01-10 02:42:09
+    firstInstallTime=2018-01-08 03:18:39
+    lastUpdateTime=2018-01-10 02:42:11
+    signatures=PackageSignatures{8e7efda [6b67733d]}
+    installPermissionsFixed=true installStatus=1
+    pkgFlags=[ DEBUGGABLE HAS_CODE ALLOW_CLEAR_USER_DATA TEST_ONLY ALLOW_BACKUP ]
+    User 0: ceDataInode=29103 installed=true hidden=false suspended=false stopped=false notLaunched=false enabled=0
+      runtime permissions:
+
+
+Dexopt state:
+  [com.jafir.jnitest]
+    Instruction Set: x86
+      path: /data/app/com.jafir.jnitest-1/base.apk
+      status: /data/app/com.jafir.jnitest-1/oat/x86/base.odex [compilation_filter=interpret-only, status=kOatUpToDate]
+
+
+Compiler stats:
+  [com.jafir.jnitest]
+     base.apk - 1716

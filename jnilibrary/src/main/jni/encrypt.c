@@ -6,6 +6,21 @@
 #define LOGD(...)  __android_log_print(ANDROID_LOG_INFO, LOG_TAG, __VA_ARGS__)
 #define LOGE(...)  __android_log_print(ANDROID_LOG_ERROR, LOG_TAG, __VA_ARGS__
 
+
+
+JNIEXPORT jint JNI_OnLoad(JavaVM* vm, void* reserved){
+
+}
+
+JNIEXPORT void JNI_OnUnload(JavaVM* vm, void* reserved){
+
+}
+
+jint RegisterNatives(jclass clazz, const JNINativeMethod* methods,
+                     jint nMethods) {
+    return 1;
+}
+
 JNIEXPORT jstring JNICALL
 Java_com_jafir_jnilibrary_Hello_sayHello(JNIEnv *env, jobject instance) {
     //调用java的

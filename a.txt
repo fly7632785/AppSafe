@@ -1,0 +1,161 @@
+ACTIVITY MANAGER ACTIVITIES (dumpsys activity activities)
+Display #0 (activities from top to bottom):
+  Stack #1:
+  mFullscreen=true
+  mBounds=null
+    Task id #452
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{603e6bd #452 A=com.jafir.jnitest U=0 StackId=1 sz=1}
+      userId=0 effectiveUid=u0a104 mCallingUid=u0a104 mUserSetupComplete=true mCallingPackage=com.jafir.jnitest
+      affinity=com.jafir.jnitest
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.LAUNCHER] flg=0x10000000 cmp=com.jafir.jnitest/.SplashActivity}
+      realActivity=com.jafir.jnitest/.SplashActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=0 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{45ff2c6 u0 com.jafir.jnitest/.MainActivity t452}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/452_task_thumbnail.png
+      stackId=1
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=true firstActiveTime=1516010176752 lastActiveTime=1516010176752 (inactive for 48s)
+      * Hist #0: ActivityRecord{45ff2c6 u0 com.jafir.jnitest/.MainActivity t452}
+          packageName=com.jafir.jnitest processName=com.jafir.jnitest
+          launchedFromUid=10104 launchedFromPackage=com.jafir.jnitest userId=0
+          app=ProcessRecord{32504b2 13713:com.jafir.jnitest/u0a104}
+          Intent { flg=0x10000000 cmp=com.jafir.jnitest/.MainActivity }
+          frontOfTask=true task=TaskRecord{603e6bd #452 A=com.jafir.jnitest U=0 StackId=1 sz=1}
+          taskAffinity=com.jafir.jnitest
+          realActivity=com.jafir.jnitest/.MainActivity
+          baseDir=/data/app/com.jafir.jnitest-1/base.apk
+          dataDir=/data/user/0/com.jafir.jnitest
+          stateNotNeeded=false componentSpecified=true mActivityType=0
+          compat={420dpi} labelRes=0x7f0b001f icon=0x7f0a0001 theme=0x7f0c0005
+          config={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.5}
+          taskConfigOverride={1.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ff3f51b5
+          launchFailed=false launchCount=1 lastLaunchTime=-48s238ms
+          haveState=false icicle=null
+          state=RESUMED stopped=false delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=true sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=APPLICATION_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=true lastVisibleTime=-5s216ms
+          resizeMode=RESIZE_MODE_RESIZEABLE
+
+    Running activities (most recent first):
+      TaskRecord{603e6bd #452 A=com.jafir.jnitest U=0 StackId=1 sz=1}
+        Run #0: ActivityRecord{45ff2c6 u0 com.jafir.jnitest/.MainActivity t452}
+
+    mResumedActivity: ActivityRecord{45ff2c6 u0 com.jafir.jnitest/.MainActivity t452}
+    mLastPausedActivity: ActivityRecord{1e996c7 u0 com.jafir.jnitest/.SplashActivity t452 f}
+
+  Stack #0:
+  mFullscreen=true
+  mBounds=null
+    Task id #358
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{4e25575 #358 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a21 mCallingUid=0 mUserSetupComplete=true mCallingPackage=null
+      intent={act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity}
+      realActivity=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+      autoRemoveRecents=false isPersistable=true numFullscreen=1 taskType=1 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{8e4e484 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t358}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/358_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=false firstActiveTime=1516010165351 lastActiveTime=1516010165351 (inactive for 59s)
+      * Hist #0: ActivityRecord{8e4e484 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t358}
+          packageName=com.google.android.apps.nexuslauncher processName=com.google.android.apps.nexuslauncher
+          launchedFromUid=0 launchedFromPackage=null userId=0
+          app=ProcessRecord{e97cdfc 2242:com.google.android.apps.nexuslauncher/u0a21}
+          Intent { act=android.intent.action.MAIN cat=[android.intent.category.HOME] flg=0x10000100 cmp=com.google.android.apps.nexuslauncher/.NexusLauncherActivity }
+          frontOfTask=true task=TaskRecord{4e25575 #358 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+          taskAffinity=null
+          realActivity=com.google.android.apps.nexuslauncher/.NexusLauncherActivity
+          baseDir=/system/priv-app/NexusLauncherPrebuilt/NexusLauncherPrebuilt.apk
+          dataDir=/data/user/0/com.google.android.apps.nexuslauncher
+          stateNotNeeded=true componentSpecified=false mActivityType=1
+          compat={420dpi} labelRes=0x7f0c0076 icon=0x7f030000 theme=0x7f120001
+          config={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.5}
+          taskConfigOverride={1.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=fff5f5f5
+          launchFailed=false launchCount=0 lastLaunchTime=-3h50m3s326ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=3544]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=2
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=HOME_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-59s782ms
+          connections=[ConnectionRecord{34a419a u0 CR IMP WACT com.google.android.googlequicksearchbox/com.google.android.apps.gsa.nowoverlayservice.DrawerOverlayService:@745e645}]
+          resizeMode=RESIZE_MODE_RESIZEABLE
+
+    Task id #361
+    mFullscreen=true
+    mBounds=null
+    mMinWidth=-1
+    mMinHeight=-1
+    mLastNonFullscreenBounds=null
+    * TaskRecord{525225f #361 A=com.android.systemui U=0 StackId=0 sz=1}
+      userId=0 effectiveUid=u0a28 mCallingUid=u0a28 mUserSetupComplete=true mCallingPackage=com.android.systemui
+      affinity=com.android.systemui
+      intent={flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[42,1584][1038,2895]}
+      realActivity=com.android.systemui/.recents.RecentsActivity
+      autoRemoveRecents=false isPersistable=false numFullscreen=1 taskType=2 mTaskToReturnTo=1
+      rootWasReset=false mNeverRelinquishIdentity=true mReuseTask=false mLockTaskAuth=LOCK_TASK_AUTH_PINNABLE
+      Activities=[ActivityRecord{b00632c u0 com.android.systemui/.recents.RecentsActivity t361}]
+      askedCompatMode=false inRecents=true isAvailable=true
+      lastThumbnail=null lastThumbnailFile=/data/system_ce/0/recent_images/361_task_thumbnail.png
+      stackId=0
+      hasBeenVisible=true mResizeMode=RESIZE_MODE_RESIZEABLE isResizeable=true firstActiveTime=1516009837403 lastActiveTime=1516009837403 (inactive for 387s)
+      * Hist #0: ActivityRecord{b00632c u0 com.android.systemui/.recents.RecentsActivity t361}
+          packageName=com.android.systemui processName=com.android.systemui
+          launchedFromUid=10028 launchedFromPackage=com.android.systemui userId=0
+          app=ProcessRecord{7c2080 1820:com.android.systemui/u0a28}
+          Intent { flg=0x10804000 cmp=com.android.systemui/.recents.RecentsActivity bnds=[42,1584][1038,2895] }
+          frontOfTask=true task=TaskRecord{525225f #361 A=com.android.systemui U=0 StackId=0 sz=1}
+          taskAffinity=com.android.systemui
+          realActivity=com.android.systemui/.recents.RecentsActivity
+          baseDir=/system/priv-app/SystemUIGoogle/SystemUIGoogle.apk
+          dataDir=/data/user_de/0/com.android.systemui
+          stateNotNeeded=true componentSpecified=true mActivityType=2
+          compat={420dpi} labelRes=0x7f0f024c icon=0x7f02014d theme=0x7f1301e3
+          config={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.5}
+          taskConfigOverride={1.0 ?mcc?mnc ?localeList ?layoutDir ?swdp ?wdp ?hdp ?density ?lsize ?long ?orien ?uimode ?night ?touch ?keyb/?/? ?nav/?}
+          taskDescription: iconFilename=null label="null" color=ff212121
+          launchFailed=false launchCount=0 lastLaunchTime=-3h47m59s250ms
+          haveState=true icicle=Bundle[mParcelledData.dataSize=1260]
+          state=STOPPED stopped=true delayedResume=false finishing=false
+          keysPaused=false inHistory=true visible=false sleeping=false idle=true mStartingWindowState=STARTING_WINDOW_NOT_SHOWN
+          fullscreen=true noDisplay=false immersive=false launchMode=3
+          frozenBeforeDestroy=false forceNewConfig=false
+          mActivityType=RECENTS_ACTIVITY_TYPE
+          waitingVisible=false nowVisible=false lastVisibleTime=-6m28s335ms
+          resizeMode=RESIZE_MODE_RESIZEABLE
+
+    Running activities (most recent first):
+      TaskRecord{4e25575 #358 I=com.google.android.apps.nexuslauncher/.NexusLauncherActivity U=0 StackId=0 sz=1}
+        Run #1: ActivityRecord{8e4e484 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t358}
+      TaskRecord{525225f #361 A=com.android.systemui U=0 StackId=0 sz=1}
+        Run #0: ActivityRecord{b00632c u0 com.android.systemui/.recents.RecentsActivity t361}
+
+    mLastPausedActivity: ActivityRecord{8e4e484 u0 com.google.android.apps.nexuslauncher/.NexusLauncherActivity t358}
+
+  mFocusedActivity: ActivityRecord{45ff2c6 u0 com.jafir.jnitest/.MainActivity t452}
+  mFocusedStack=ActivityStack{1dd6c03 stackId=1, 1 tasks} mLastFocusedStack=ActivityStack{1dd6c03 stackId=1, 1 tasks}
+  mSleepTimeout=false
+  mCurTaskIdForUser={0=452}
+  mUserStackInFront={}
+  mActivityContainers={0=ActivtyContainer{0}A, 1=ActivtyContainer{1}A}
+  mLockTaskModeState=NONE mLockTaskPackages (userId:packages)=
+    0:[]
+ mLockTaskModeTasks[]

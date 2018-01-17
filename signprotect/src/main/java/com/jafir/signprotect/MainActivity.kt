@@ -2,7 +2,7 @@ package com.jafir.signprotect
 
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
-import android.util.Log
+import android.widget.TextView
 
 class MainActivity : AppCompatActivity() {
 
@@ -10,10 +10,10 @@ class MainActivity : AppCompatActivity() {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
 
-        if(Utils.isOwner()){
-            Log.d("debug","yes")
-        }else{
-            Log.d("debug","no")
-        }
+        findViewById<TextView>(R.id.text).text = "jafir"
+    }
+
+    init {
+        System.loadLibrary("encrypt")
     }
 }

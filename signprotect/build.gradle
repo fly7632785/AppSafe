@@ -14,7 +14,6 @@ android {
         versionName "1.0"
 
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
-
     }
 
     buildTypes {
@@ -44,6 +43,12 @@ android {
             keyAlias "fly7632785"
             keyPassword "7632785"
             v2SigningEnabled true
+        }
+    }
+    sourceSets { main { jni.srcDirs = ['src/main/jni', 'src/main/jni/'] } }
+    externalNativeBuild {
+        cmake {
+            path 'CMakeLists.txt'
         }
     }
 

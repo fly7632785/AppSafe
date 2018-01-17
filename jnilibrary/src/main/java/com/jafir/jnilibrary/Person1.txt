@@ -1,0 +1,66 @@
+TASK com.jafir.jnitest id=287
+  ACTIVITY com.jafir.jnitest/.MainActivity ffdb9df pid=20620
+    Local Activity 2af5fd5 State:
+      mResumed=true mStopped=false mFinished=false
+      mChangingConfigurations=false
+      mCurrentConfig={1.0 310mcc260mnc [en_US] ldltr sw411dp w411dp h659dp 420dpi nrml port finger qwerty/v/v -nav/h s.5}
+      mLoadersStarted=true
+      Active Fragments in e149f4a:
+        #0: ReportFragment{48c8ebb #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+          mFragmentId=#0 mContainerId=#0 mTag=android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag
+          mState=5 mIndex=0 mWho=android:fragment:0 mBackStackNesting=0
+          mAdded=true mRemoving=false mFromLayout=false mInLayout=false
+          mHidden=false mDetached=false mMenuVisible=true mHasMenu=false
+          mRetainInstance=false mRetaining=false mUserVisibleHint=true
+          mFragmentManager=FragmentManager{e149f4a in HostCallbacks{2f7efd8}}
+          mHost=android.app.Activity$HostCallbacks@2f7efd8
+          Child FragmentManager{7b51f31 in ReportFragment{48c8ebb}}:
+            FragmentManager misc state:
+              mHost=android.app.Activity$HostCallbacks@2f7efd8
+              mContainer=android.app.Fragment$1@8856616
+              mParent=ReportFragment{48c8ebb #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+              mCurState=5 mStateSaved=false mDestroyed=false
+      Added Fragments:
+        #0: ReportFragment{48c8ebb #0 android.arch.lifecycle.LifecycleDispatcher.report_fragment_tag}
+      FragmentManager misc state:
+        mHost=android.app.Activity$HostCallbacks@2f7efd8
+        mContainer=android.app.Activity$HostCallbacks@2f7efd8
+        mCurState=5 mStateSaved=false mDestroyed=false
+    ViewRoot:
+      mAdded=true mRemoved=false
+      mConsumeBatchedInputScheduled=false
+      mConsumeBatchedInputImmediatelyScheduled=false
+      mPendingInputEventCount=0
+      mProcessInputEventsScheduled=false
+      mTraversalScheduled=false      mIsAmbientMode=false
+      android.view.ViewRootImpl$NativePreImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$ImeInputStage: mQueueLength=0
+      android.view.ViewRootImpl$NativePostImeInputStage: mQueueLength=0
+    Choreographer:
+      mFrameScheduled=false
+      mLastFrameTime=330206002 (1879748 ms ago)
+    View Hierarchy:
+      DecorView@8a6dccb[MainActivity]
+        android.widget.LinearLayout{f94c3c1 V.E...... ........ 0,0-1080,1794}
+          android.view.ViewStub{eb5b97 G.E...... ......I. 0,0-0,0 #10203ef android:id/action_mode_bar_stub}
+          android.widget.FrameLayout{e425766 V.E...... ........ 0,63-1080,1794}
+            android.support.v7.widget.ActionBarOverlayLayout{7c47aa7 V.E...... ........ 0,0-1080,1731 #7f07002c app:id/decor_content_parent}
+              android.support.v7.widget.ContentFrameLayout{314b54 V.E...... ........ 0,147-1080,1731 #1020002 android:id/content}
+                android.support.constraint.ConstraintLayout{e8dafd V.E...... ........ 0,0-1080,1584}
+                  android.support.v7.widget.AppCompatTextView{28c83f2 V.ED..... ........ 256,724-825,861 #7f070071 app:id/text}
+              android.support.v7.widget.ActionBarContainer{5341a43 V.ED..... ........ 0,0-1080,147 #7f070009 app:id/action_bar_container}
+                android.support.v7.widget.Toolbar{a01c8c0 V.E...... ........ 0,0-1080,147 #7f070007 app:id/action_bar}
+                  android.support.v7.widget.AppCompatTextView{26d29f9 V.ED..... ........ 42,38-216,109}
+                  android.support.v7.widget.ActionMenuView{7e83184 V.E...... ......ID 1080,0-1080,147}
+                android.support.v7.widget.ActionBarContextView{d0b7d6d G.E...... ......I. 0,0-0,0 #7f07000f app:id/action_context_bar}
+        android.view.View{bae1b9a V.ED..... ........ 0,1794-1080,1920 #1020030 android:id/navigationBarBackground}
+        android.view.View{6540ca8 V.ED..... ........ 0,0-1080,63 #102002f android:id/statusBarBackground}
+    Looper (main, tid 1) {d69cda2}
+      (Total messages: 0, polling=false, quitting=false)
+    Local FragmentActivity 2af5fd5 State:
+      mCreated=truemResumed=true mStopped=false mReallyStopped=false
+      mLoadersStarted=true
+    FragmentManager misc state:
+      mHost=android.support.v4.app.FragmentActivity$HostCallbacks@1a33
+      mContainer=android.support.v4.app.FragmentActivity$HostCallbacks@1a33
+      mCurState=5 mStateSaved=false mDestroyed=false
