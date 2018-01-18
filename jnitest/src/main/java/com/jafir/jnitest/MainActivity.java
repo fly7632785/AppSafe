@@ -4,11 +4,9 @@ import android.content.Intent;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
+import android.view.View;
 import android.webkit.WebView;
 import android.webkit.WebViewClient;
-import android.widget.TextView;
-
-import com.jafir.jnilibrary.Hello;
 
 public class MainActivity extends AppCompatActivity {
 
@@ -16,17 +14,16 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        ((TextView) findViewById(R.id.text)).setText(new Hello().sayHello() + "\n" + Hello.staticSayHello() + "\n" + new Hello().getPerson());
-        new Hello().callArray();
+//        ((TextView) findViewById(R.id.text)).setText(new Hello().sayHello() + "\n" + Hello.staticSayHello() + "\n" + new Hello().getPerson());
+//        new Hello().callArray();
 
         Intent intent = getIntent();
         String ac = intent.getAction();
         int f = intent.getFlags();
 //        initWebView();
-
-        Log.d("debug","name:"+SIngle.getInstance_(this));
+        Log.d("debug", "name:" + SIngle.getInstance_(this));
         SIngle.getInstance_(this).setName(getString(R.string.jafir));
-        Log.d("debug","name:"+SIngle.getInstance_(this));
+        Log.d("debug", "name:" + SIngle.getInstance_(this));
     }
 
     private void initWebView() {
@@ -44,4 +41,9 @@ public class MainActivity extends AppCompatActivity {
         });
     }
 
+    public void gotoshared(View view) {
+        Intent intent = new Intent();
+        intent.setAction("com.jafir.shared");
+        startActivity(intent);
+    }
 }

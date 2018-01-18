@@ -1,5 +1,6 @@
 package com.jafir.signprotect
 
+import android.content.Intent
 import android.os.Bundle
 import android.support.v7.app.AppCompatActivity
 import android.widget.TextView
@@ -11,6 +12,10 @@ class MainActivity : AppCompatActivity() {
         setContentView(R.layout.activity_main)
 
         findViewById<TextView>(R.id.text).text = "jafir"
+        findViewById<TextView>(R.id.edit).text = "edit"
+        findViewById<TextView>(R.id.text).setOnClickListener {
+            startActivity(Intent(this,SharedActivity::class.java))
+        }
     }
 
     init {
